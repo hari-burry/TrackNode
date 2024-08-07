@@ -46,6 +46,7 @@ function App() {
     localStorage.setItem('list',JSON.stringify(newarr));
     setUpd(false);
     setAddi(true);
+    setTxt("");
 
   }
 
