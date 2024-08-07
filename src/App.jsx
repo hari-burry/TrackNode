@@ -44,6 +44,8 @@ function App() {
     const newarr=arr.filter((_,i)=>i!=index);
     setArr(newarr);
     localStorage.setItem('list',JSON.stringify(newarr));
+    setUpd(false);
+    setAddi(true);
 
   }
 
