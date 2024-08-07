@@ -86,7 +86,10 @@ function App() {
 
     <>
     <div className='header'>
+      <div>
     <h1 className='titl'>TrackNode</h1>
+    <h5 className='sign'>Made with React</h5>
+    </div>
    {msg.length>0 &&<h2 className='msg'>{msg}</h2>}
     <button
     onClick={()=>deleteall()}
@@ -119,8 +122,8 @@ function App() {
     {upd&&
     <button
     onClick={()=>update()}
-    className='add'>
-      Update
+    className='add3'>
+      Update here
     </button>
 }
     </div>
