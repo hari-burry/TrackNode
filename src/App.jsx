@@ -47,6 +47,7 @@ function App() {
     setUpd(false);
     setAddi(true);
     setTxt("");
+    setInd(null);
 
   }
 
